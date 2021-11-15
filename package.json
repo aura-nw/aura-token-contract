@@ -1,7 +1,7 @@
 {
-  "name": "coin98-token-ethereum-contract",
+  "name": "aura-token-ethereum-contract",
   "version": "1.0.0",
-  "description": "Coin98 Lab Token Contract for Ethereum blockchain",
+  "description": "Aura Token Contract for Ethereum blockchain",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -11,9 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/coin98/coin98-token-eth-contract.git"
+    "url": ""
   },
-  "author": "Tung 'Lukaz' Nguyen",
+  "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/coin98/coin98-token-eth-contract#readme"
+  "homepage": "",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0"
+  }
 }
