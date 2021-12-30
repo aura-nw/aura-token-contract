@@ -501,7 +501,7 @@ contract Aura is Context, Ownable, Pausable, IERC20 {
 
     /**
      * @dev Sets the values for {name} and {symbol}, initializes {decimals} with
-   * a default value of 18.
+   * a default value of 6.
    *
    * To select a different value for {decimals}, use {_setupDecimals}.
    *
@@ -509,10 +509,10 @@ contract Aura is Context, Ownable, Pausable, IERC20 {
    * construction.
    */
     constructor() {
-        uint256 fractions = 10 ** uint256(18);
+        uint256 fractions = 10 ** uint256(6);
         _name = "Aura";
         _symbol = "AURA";
-        _decimals = 18;
+        _decimals = 6;
         _maxSupply = 1000000000 * fractions;
     }
 
