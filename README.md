@@ -9,6 +9,8 @@ This source code is credited to our generous friends from [Coin98 Finance](https
 
 The coin98 code version is audited by [Armors Labs](https://armors.io/)
 
+We are in the process of sending our modified version for another round of security audit.
+
 # Contact
 For more information, please contact us at: [support@aura.network](mailto:support@aura.network)
 
